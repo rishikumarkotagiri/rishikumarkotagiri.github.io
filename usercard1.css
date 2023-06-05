@@ -2,20 +2,20 @@
     margin-left: 100px;
 }
 .card{
-    box-shadow: 0 4px 8px 0 rgb(12, 12, 12);
+    box-shadow:0 4px 8px 0 rgba(0, 0,0,2);
     width:30%;
-    transition:0.3%;
-}  
-.cardimg{
-    width: 100%;
+    transition: 0.3s;
+}
+
+.cardimage{
+    width:100%;
 }
 .cardbody{
     padding: 2px 16px;
 }
-.cardbody_designation{
+.cardbody-designation{
     font-style: italic;
-    
 }
-.card-hover{
-    box-shadow:0 20px 32px 0 rgb(0, 0, 0);
+.card:hover{
+    box-shadow:0 20px 32px 0 rgba(0,0,0,0.2);
 }
