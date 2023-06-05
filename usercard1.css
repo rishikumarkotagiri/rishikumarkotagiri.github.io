@@ -14,7 +14,7 @@
     padding: 2px 16px;
 }
 .cardbody-designation{
-    font-style: italic;
+    font-style: italic; 
 }
 .card:hover{
     box-shadow:0 20px 32px 0 rgba(0,0,0,0.2);
