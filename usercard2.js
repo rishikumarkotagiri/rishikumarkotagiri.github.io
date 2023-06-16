@@ -6,7 +6,7 @@
 
 let bhuviinfo={
     imageurl: "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2013/04/29/329127.gif?itok=SZN8Zu9e",
-    name: "Bhuvaneshwar Kumar",
+    name: "BhuvaneshwarKumar",
     description: "swing king of india"
 }
 
