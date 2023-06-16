@@ -18,7 +18,7 @@ let getRandomUser = function(){
         displayobject.imageurl = data.results[0].picture.large
         displayobject.description = data.results[0].gender
         document.getElementById("bhuvi").src = displayobject.imageurl;
-        document.getElementById("huvaneshwar").innerHTML = displayobject.name;
+        document.getElementById("bhuvaneshwar").innerHTML = displayobject.name;
         document.getElementById("descrip").innerHTML = displayobject.description;
     })
     
