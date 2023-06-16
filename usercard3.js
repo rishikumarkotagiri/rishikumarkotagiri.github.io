@@ -14,7 +14,7 @@ let getRandomUser = function(){
     .then(response => response.json())
     .then(data=>{
         displayobject.name = data.results[0].name.first + " " + data.results[0].name.last
-        // displayobject.name = "User Name"
+    
         displayobject.imageurl = data.results[0].picture.large
         displayobject.description = data.results[0].gender
         document.getElementById("bhuvi").src = displayobject.imageurl;
